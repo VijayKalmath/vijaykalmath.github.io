@@ -1,12 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - VijayKalmath
+  - 
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - conda-forge/aimodelshare-feedstock
+  - VijayKalmath/Spectral-Representations-for-Convolutional-Neural-Networks
+  - VijayKalmath/AdversarialTraining_in_Distilation_Of_BERT
+  - VijayKalmath/K-Branch-CNNs
+  - VijayKalmath/MultiChannelResNet-RemoteSensingData-Classification
+  - VijayKalmath/XGBoost_Models_for_StellarNetwork_SurgePrice_Prediction

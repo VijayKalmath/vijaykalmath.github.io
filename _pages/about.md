@@ -1,5 +1,5 @@
 ---
-layout: About
+layout: about
 title: About
 permalink: /
 subtitle: <a href='https://www.columbia.edu/'> Ms Data Science @ Columbia University</a> , <a href='https://www.cisco.com/'>Ex - Cisco</a>

@@ -4,4 +4,4 @@ date: 2022-07-27
 inline: true
 ---
 
-Working as a Machine Learning Research Assistant on [AIMODELSHARE](https://www.modelshare.org/).
+Started Working as a Machine Learning Research Assistant on [AIMODELSHARE](https://www.modelshare.org/).

@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /repositories/
-title: Github
-description: <a href='https://github.com/VijayKalmath'>My Github Profile</a>  
+title: <a href='https://github.com/VijayKalmath'> Github </a>
+description: Quick Summary of My Github Profile 
 nav: true
 nav_order: 2
 ---

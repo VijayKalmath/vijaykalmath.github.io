@@ -2,12 +2,12 @@
 layout: page
 permalink: /repositories/
 title: Github
-description: Quick Look at [Github](https://github.com/VijayKalmath) Profile 
+description: <a href='https://github.com/VijayKalmath'>My Github Profile</a>  
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
-## GitHub users
+## Key GitHub Stats
 
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -16,6 +16,22 @@ nav_order: 3
   {% endfor %}
 </div>
 {% endif %}
+
+---
+
+## Github Contributions 
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  <div class="repo p-2 text-center">
+      <ol>
+      <li>TextAttack <a href='https://github.com/QData/TextAttack/pulls?q=is%3Apr+author%3AVijayKalmath+'> ~20 PRs </a> </li>
+        <dd>A Python framework for adversarial attacks, data augmentation, and model training in NLP</dd>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>  
+
+  </div>
+</div>
 
 ---
 

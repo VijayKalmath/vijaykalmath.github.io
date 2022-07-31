@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-05-16 
+date: 2022-05
 inline: true
 ---
 
-Started working as a Deep Learning Research Assistant at Columbia WiMNet.[AIMODELSHARE](https://www.modelshare.org/).
+Started working as a Deep Learning Research Assistant at Columbia WiMNet.

@@ -1,8 +1,8 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
-title: cv
+title: [Resume]({% link assests/pdf/example_pdf.pdf %})
 nav: true
 nav_order: 4
-cv_pdf: example_pdf.pdf
+#v_pdf: example_pdf.pdf
 ---

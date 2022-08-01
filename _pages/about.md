@@ -14,14 +14,14 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 I am a Master’s student in Data Science at [Columbia University](https://datascience.columbia.edu/education/programs/m-s-in-data-science/) graduating in December 2022. 
 
 I am currently working as a `Deep Learning Research Assistant` at Columbia University I am looking for full-time roles in the machine learning/ deep learning domain to combine my previous work experience and data science knowledge to create a significant impact. 
 
-My work and studies at Columbia have been mainly focused on Deep Learning from projects involving standard Convolutional Neural Networks, Time Distributed ConvLSTMs to Language Models. 
+My work and studies at Columbia have been mainly focused on Deep Learning from projects involving standard Convolutional Neural Networks, Time Distributed ConvLSTMs to Language Models. I am currently focused on language model compression and adversarial attacks in langauge models.
 
 I also had the opportunity to work as a Course Assistant for the course `Deep Learning and Neural Networks` and `Machine Learning Security` in the Columbia AI Exec Program.
 

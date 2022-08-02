@@ -26,7 +26,7 @@ In this project we look at how we can use adversarial training either before or 
         {% include figure.html path="assets/img/adversarial_training_model_compression/textattack.png"  title="TextAttack Framework" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/adversarial_training_model_compression/huggingface.png.png"  title="HuggingFace" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/adversarial_training_model_compression/huggingface.png"  title="HuggingFace" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -49,23 +49,31 @@ We performed Adversarial Data Augmentation using different Algorithms such as Em
     Adversarial Data Augmentation Example image.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
-
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/adversarial_training_model_compression/table2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
-
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/adversarial_training_model_compression/table3.png"  title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    You can also have artistically styled 2/3 + 1/3 images, like these.
+</div>
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/adversarial_training_model_compression/table4.png"  title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    You can also have artistically styled 2/3 + 1/3 images, like these.
+</div>
 
 The code is simple.
 Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).

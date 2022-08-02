@@ -2,7 +2,7 @@
 layout: page
 title: Spectral Representations for Convolutional Neural Networks
 description: Implementation of Spectral Representations for Convolutional Neural Networks
-img: assets/img/spectral_representations/rgb_pooling.jpg
+img: assets/img/spectral_representations/rgb_pooling.png
 importance: 2
 category: Deep Learning
 ---
@@ -10,6 +10,7 @@ category: Deep Learning
 The project is based on the the 2015 Paper by Oren Rippel et.al. [Arxiv Link](https://arxiv.org/pdf/1506.03767.pdf)
 
 We implement custom tensorflow layers using tensorflow APIs which perform 
+
     1. Spectral Pooling 
     2. Frequency dropout 
     3. Spectral Implementation on Convolutional Neural Network 

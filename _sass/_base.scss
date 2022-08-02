@@ -441,7 +441,7 @@ footer.sticky-bottom {
   }
 
   .grid-sizer, .grid-item {
-    width: 375px;
+    width: (50% - 10px);
     margin-bottom: 10px;
   }
 

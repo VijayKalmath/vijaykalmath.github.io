@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
+title: Exploratory Data Analysis
+description: Exploratory Data Analysis and Visualization of US Crime Stats.
+img: assets/img/edav/USCrimeAnalysis.gif
+redirect: https://vijaykalmath.github.io/USCrimeAnalysis/
 importance: 4
-category: fun
+category: Data Vizualization
 ---
 
 Every project has a beautiful feature showcase page.

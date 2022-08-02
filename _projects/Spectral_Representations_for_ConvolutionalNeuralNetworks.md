@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Spectral Representations for ConvolutionalNeuralNetworks
+title: Spectral Representations for Convolutional Neural Networks
 description: Implementation of Spectral Representations for Convolutional Neural Networks
-img: assets/img/spectral_representations/3.jpg
+img: assets/img/spectral_representations/rgb_pooling.jpg
 importance: 2
 category: Deep Learning
 ---

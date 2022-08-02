@@ -1,24 +1,20 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Spectral Representations for ConvolutionalNeuralNetworks
+description: Implementation of Spectral Representations for Convolutional Neural Networks <a href='https://arxiv.org/abs/1506.03767'> Paper </a>.
+img: assets/img/spectral_representations/3.jpg
 importance: 2
-category: work
+category: Deep Learning
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The project is based on the the 2015 Paper by Oren Rippel et.al. [Arxiv Link](https://arxiv.org/pdf/1506.03767.pdf)
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+We implement custom tensorflow layers using tensorflow APIs which perform 
+    1. Spectral Pooling 
+    2. Frequency dropout 
+    3. Spectral Implementation on Convolutional Neural Network 
+    
+We were able to successful implement all the Novel Ideas presented in the paper and replicate the results seen by the Authors. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

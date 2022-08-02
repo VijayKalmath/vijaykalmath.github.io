@@ -25,24 +25,28 @@ In this project we look at how we can use adversarial training either before or 
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.html path="assets/img/adversarial_training_model_compression/textattack.png"  title="TextAttack Framework" class="img-fluid rounded z-depth-1" %}
     </div>
-
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/adversarial_training_model_compression/huggingface.png.png"  title="HuggingFace" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    1. GanBert Architecture, 2. TextAttack , 3. HuggingFace
 </div>
 
 We explore two basic strategies for building robust models that are immune to adversarial attacks - Adversarial training and GAN-Bert training. 
 
-Adversarial training mainly involves the technique of data augmentation during the finetuning step of the model while GAN Bert training involves self creation of perturbed examples that are included during the model training phase. 
+Adversarial training mainly involves the technique of data augmentation during the Fine0tuning step of the model while GAN Bert training involves self creation of perturbed examples that are included during the model training phase. 
 
+
+We performed Adversarial Data Augmentation using different Algorithms such as EmbeddingAugmenter , SynonymInsertionAugmenter , WordNetAugmenter
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/adversarial_training_model_compression/advesarial_dataaugmentation.png" title="Adversarial Data Augmentation Example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Adversarial Data Augmentation Example image.
 </div>
 
 You can also put regular text between your rows of images.

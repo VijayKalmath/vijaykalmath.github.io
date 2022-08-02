@@ -19,19 +19,23 @@ In this project we look at how we can use adversarial training either before or 
  This paper evaluates the performance of various models built on the ideas of adversarial training and GAN BERT finetuned on SST-2 dataset. Further the experiments in this paper seek to find evidence on whether knowledege distillation preserves robustness in the student models.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0 img-fluid">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-8 mt-3 mt-md-0 ">
+        {% include figure.html path="assets/img/adversarial_training_model_compression/ganbert.png" title="GanBERT Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0 rounded z-depth-1">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/adversarial_training_model_compression/textattack.png"  title="TextAttack Framework" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+
 </div>
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
+
+We explore two basic strategies for building robust models that are immune to adversarial attacks - Adversarial training and GAN-Bert training. 
+
+Adversarial training mainly involves the technique of data augmentation during the finetuning step of the model while GAN Bert training involves self creation of perturbed examples that are included during the model training phase. 
+
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}

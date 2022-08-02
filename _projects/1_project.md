@@ -1,30 +1,27 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Adversarial Training in Distillation of BERT
+description: Language Model Compression and their Robustness 
+img: assets/img/distilBert_modelcompression.png
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+In the recent years, transformer-based language learning models like BERT have been one of the most popular architectures used in the research related to natural language processing. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Productionizing these models under constrained resources to allow for the low latency the internet demands requires model compression. 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+While model compression has been proven to perform with similar accuracy levels and with faster inference speeds , their robustness or lack thereof is usually overlooked. 
+
+In this project we look at how we can use adversarial training either before or after model compression to preserve the robustness of the BERT Models.
+
+ This paper evaluates the performance of various models built on the ideas of adversarial training and GAN BERT finetuned on SST-2 dataset. Further the experiments in this paper seek to find evidence on whether knowledege distillation preserves robustness in the student models.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0 img-fluid">
         {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0 rounded z-depth-1">
         {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">

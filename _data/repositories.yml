@@ -2,7 +2,7 @@ github_users:
   - VijayKalmath
 
 github_repos:
-  - conda-forge/aimodelshare-feedstock
+  - QData/TextAttack
   - VijayKalmath/Spectral-Representations-for-Convolutional-Neural-Networks
   - VijayKalmath/AdversarialTraining_in_Distilation_Of_BERT
   - VijayKalmath/K-Branch-CNNs

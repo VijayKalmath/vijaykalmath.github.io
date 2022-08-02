@@ -11,7 +11,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Vijay Kalmath's Portfolio
 footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: academic-website,deep-learning,machine learning,data science , vijay kalmath  # add your own keywords or leave empty
+keywords: academic-website,deep-learning,machine-learning,data-science ,Vijay-Kalmath  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: deep_learning.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -67,7 +67,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: VijayKalmath # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: vijayskalmath # your Twitter handle
+twitter_username:  # your Twitter handle
 linkedin_username: vijay-kalmath # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
@@ -185,7 +185,7 @@ defaults:
   - scope:
       path: "assets/**/*.*"
     values:
-      sitemap: false
+      sitemap: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
@@ -217,36 +217,36 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
-scholar:
+# scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+#   last_name: Einstein
+#   first_name: [Albert, A.]
 
-  style: apa
-  locale: en
+#   style: apa
+#   locale: en
 
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-  # Note: if you have latex math in your bibtex, the latex filter
-  # preprocessing may conflict with MathJAX if the latter is enabled.
-  # See https://github.com/alshedivat/al-folio/issues/357.
-  bibtex_filters: [latex, smallcaps, superscript]
+#   source: /_bibliography/
+#   bibliography: papers.bib
+#   bibliography_template: bib
+#   # Note: if you have latex math in your bibtex, the latex filter
+#   # preprocessing may conflict with MathJAX if the latter is enabled.
+#   # See https://github.com/alshedivat/al-folio/issues/357.
+#   bibtex_filters: [latex, smallcaps, superscript]
 
-  replace_strings: true
-  join_strings: true
+#   replace_strings: true
+#   join_strings: true
 
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
+#   details_dir: bibliography
+#   details_layout: bibtex.html
+#   details_link: Details
 
-  query: "@*"
+#   query: "@*"
 
-# Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview]
+# # Filter out certain bibtex entry keywords used internally from the bib output
+# filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview]
 
-# Maximum number of authors to be shown, other authors will be visible on hover, leave blank to show all authors
-max_author_limit: 3
+# # Maximum number of authors to be shown, other authors will be visible on hover, leave blank to show all authors
+# max_author_limit: 3
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images

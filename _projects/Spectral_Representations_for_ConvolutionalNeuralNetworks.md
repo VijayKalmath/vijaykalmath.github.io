@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Spectral Representations for ConvolutionalNeuralNetworks
-description: Implementation of Spectral Representations for Convolutional Neural Networks <a href='https://arxiv.org/abs/1506.03767'> Paper </a>.
+description: Implementation of Spectral Representations for Convolutional Neural Networks
 img: assets/img/spectral_representations/3.jpg
 importance: 2
 category: Deep Learning

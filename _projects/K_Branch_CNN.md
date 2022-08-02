@@ -1,11 +1,10 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: K-Branch CNN 
+description: Novel Convolutional Architecture for Remote Sensing Data
+img: assets/img/climate_change_competition/k-branch_cnn.png
 importance: 3
-category: work
+category: Deep Learning
 ---
 
 Every project has a beautiful feature showcase page.

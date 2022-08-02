@@ -5,6 +5,7 @@ description: Implementation of Spectral Representations for Convolutional Neural
 img: assets/img/spectral_representations/rgb_pooling.png
 importance: 2
 category: Deep Learning
+github: https://github.com/VijayKalmath/Spectral-Representations-for-Convolutional-Neural-Networks
 ---
 
 The project is based on the the 2015 Paper by Oren Rippel et.al. [Arxiv Link](https://arxiv.org/pdf/1506.03767.pdf)

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: BigEarthNet Classification using Transfer Learning.
+description: Climate Change Machine Learning Competition - Won Gold Medal.
+img: assets/img/climate_change_competition/bigearthnet.png
 importance: 3
-category: fun
+category: Deep Learning
 ---
 
 Every project has a beautiful feature showcase page.

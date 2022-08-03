@@ -11,8 +11,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Vijay Kalmath's Portfolio
 footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: academic-website,deep-learning,machine-learning,data-science ,Vijay-Kalmath  # add your own keywords or leave empty
-
+keywords: vijay,Vijay,Kalmath,Vijay Kalmath,vijay kalmath,vijaykalmath,machine-learning,deep-learning,columbia university machine learning,machine learning research assistant,deep learning,deep learning research assistant,data-science,Adversarial Training, Model-Compression,K-Branch CNN, BigEarthNet,EDAV,Cisco,ACI,AImodelshare
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: deep_learning.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

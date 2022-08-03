@@ -42,11 +42,11 @@
   type: time_table
   contents:
     - title: Graduate Machine Learning Research Assistant
-      institution: AIModelshare, Institute for Social and Economic Research and Policy, Columbia University
+      institution: [AIModelshare](https://www.modelshare.org/), Institute for Social and Economic Research and Policy, Columbia University
       year: Ongoing
 
     - title: Graduate Deep Learning Research Assistant
-      institution: Columbia WiMNet Lab, Columbia University
+      institution: [Columbia WiMNet Lab](https://wimnet.ee.columbia.edu/), Columbia University
       year: May 2022 - Jul 2022
       description:
         - Formulated and Implemented Data Extraction pipelines for 25+ Radar Measurements to develop range-velocity data.

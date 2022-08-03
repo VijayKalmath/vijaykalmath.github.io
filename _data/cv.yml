@@ -14,7 +14,7 @@
     - title: Master of Science in Data Science
       institution: Columbia University 
       grade : 3.8/4.0
-      year: December 2022
+      year: Dec 2022
       description:
         - title: CourseWork 
           contents:
@@ -38,26 +38,34 @@
             - Java
             - Operating Systems
 
-- title: Experience
+- title: Academic Work Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Graduate Machine Learning Research Assistant
+      institution: AIModelshare, Institute for Social and Economic Research and Policy, Columbia University
+      year: Ongoing
 
+    - title: Graduate Deep Learning Research Assistant
+      institution: Columbia WiMNet Lab, Columbia University
+      year: May 2022 - Jul 2022
+      description:
+        - Formulated and Implemented Data Extraction pipelines for 25+ Radar Measurements to develop range-velocity data.
+        - Analyzed dataset to determine spatial properties and tested dimensionality reduction techniques for better detection.
+        - Collaborated with Duke University to build Random Forests with Xgboost and Hyperparameter Tuning.
+        - Achieved a 30% increase in accuracy with CNNs designed to use phase and amplitude of the complex-valued dataset.
+        - Developed Time Distributed CNN with LSTMs for Image sequence classification to capture temporal relationship within data.
+    
+    - title : Course Assistant - Machine Learning Security
+      institution: Columbia University
+      year: Mar 2022 - Jun 2022
+    
+    - title : Course Assistant - Deep Learning and Neural Networks 
+      institution : Columbia University 
+      year : Feb 2022 - May 2022
+
+- title: Work Experience
+  type: time_table
+  contents:
     - title: Director
       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
       year: 1917-1933

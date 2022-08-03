@@ -104,3 +104,19 @@
       year: Jun 2018
     - title: Cisco Certified Networking Associate - Routing and Switching
       year: Jan 2020
+
+
+
+- title: Skills 
+  type : map
+  contents:
+    - name: Languages
+      value: Python, R, JavaScript, C++ 
+    - name: Databases 
+      value: SQL, Postgres, MongoDB, ElasticSearch  
+    - name: Machine Learning / Deep Learning
+      value: TensorFlow, Pytorch, Huggingface, WandB, Scikit-learn,
+    - name: Cloud Services 
+      value: AWS Sagemaker, AWS Lambda, AWS EKS, Azure Cloud, Google BigQuery,
+    - name: DevOps Technologies
+      value: Linux, ELK Stack, Docker, Kubernetes,CI/CD Pipelines

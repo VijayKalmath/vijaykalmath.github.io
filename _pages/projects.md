@@ -5,7 +5,7 @@ permalink: /projects/
 description: A every growing Collection of Deep Learning and Machine Learning Projects.
 nav: true
 nav_order: 2
-display_categories: [Deep Learning,Machine Learning,Data Vizualization]
+display_categories: [Deep Learning,Cisco,Data Vizualization]
 horizontal: false
 ---
 

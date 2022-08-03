@@ -19,15 +19,17 @@ social: false  # includes social icons at the bottom of the page
 
 I am a Master’s student in Data Science at [Columbia University](https://datascience.columbia.edu/education/programs/m-s-in-data-science/) graduating in December 2022. 
 
-I am currently working as a `Deep Learning Research Assistant` at Columbia University I am looking for full-time roles in the machine learning/ deep learning domain to combine my previous work experience and data science knowledge to create a significant impact. 
+I am currently working as a `Deep Learning Research Assistant` at Columbia University working on Image Sequence Classification with ConvLSTM Models. I am currently looking for full-time roles in the machine learning/ deep learning domain to combine my previous work experience and deep learning knowledge to create a significant impact. 
 
-My work and studies at Columbia have been mainly focused on Deep Learning from projects involving standard Convolutional Neural Networks, Time Distributed ConvLSTMs to Language Models. I am currently focused on language model compression and adversarial attacks in langauge models.
+My work and studies at Columbia have been mainly focused on Deep Learning from projects involving standard Convolutional Neural Networks , Creating custom tensorflow layers, Time Distributed ConvLSTMs to Language Models. 
 
-I also had the opportunity to work as a Course Assistant for the course `Deep Learning and Neural Networks` and `Machine Learning Security` in the Columbia AI Exec Program.
+I am currently focused on language model compression and adversarial attacks in langauge models.
 
-Before my Masters, I worked at `Cisco` in Bangalore, India for 3 Years as a Technical Consulting Engineer in the Software Defined Networking Domain and focused on DevOps Technologies like Docker, Kubernetes, etc.. . At Cisco, I got opportunities to work with many Cisco customers across the globe and got to mentor and ramp up multiple engineers for the Team.
+In the spring of 2022, I worked as a Course Assistant for the course `Deep Learning and Neural Networks` and `Machine Learning Security` in the Columbia AI Exec Program. 
 
-I have led around `25+` Automation Projects within Cisco built upon Python, JavaScript, SQL, MongoDB, and Elasticsearch and won multiple hackathons. 
+Before my Masters, I worked at `Cisco` in Bangalore, India for 3 Years as a Technical Consulting Engineer in the Software Defined Networking Domain and focused Linux based Distributed Computing platforms, DevOps Technologies like Docker, Kubernetes and Cloud Computing with AWS and Azure. 
+
+At Cisco, I got opportunities to work with many Cisco customers across the globe and got to mentor and ramp up multiple engineers for the Team.I led and developed around `25+  Automation Projects` built upon Python, JavaScript, SQL, MongoDB, and Elasticsearch aimed at assisting troubleshooting for engineers and automating log analysis across technologies.
 
 Aside from work, I am an avid fan of Formula 1 Racing and love listening to Old School Hindi Music and Western Classical music.
 

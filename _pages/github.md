@@ -33,14 +33,7 @@ nav_order: 3
 
 ## Open Source Contributions 
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  <div class="p-2 text-left">
-      <ol>
-      <li>TextAttack - A Python framework for adversarial attacks, data augmentation, and model training in NLP - <a href='https://github.com/QData/TextAttack/pulls?q=is%3Apr+author%3AVijayKalmath+'> Almost 20 PRs opened and merged. </a></li>
-      <li>HuggingFace/Transformers - <a href='https://github.com/huggingface/transformers/pulls?q=+is%3Apr+author%3AVijayKalmath+'> Working on Several Good First Issues</a></li>
-      <li>HuggingFace/Datasets - <a href='https://github.com/huggingface/datasets/pulls?q=+is%3Apr+author%3AVijayKalmath+'> Working on Several Good First Issues</a></li>
-      <li>AIModelshare - Maintainer for the python library.</li>
-    </ol>  
-
-  </div>
-</div>
+| [TextAttack](https://github.com/QData/TextAttack) | A Python framework for adversarial attacks, data augmentation, and model training in NLP | [~20 Pull Requests](https://github.com/QData/TextAttack/pulls?q=is%3Apr+author%3AVijayKalmath+)
+| [Transformers](https://github.com/HuggingFace/Transformers) | Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX. |  [Good First Issues](https://github.com/huggingface/transformers/pulls?q=+is%3Apr+author%3AVijayKalmath+)
+| [Datasets](https://github.com/HuggingFace/Datasets)  | The largest hub of ready-to-use datasets for ML models with fast, easy-to-use and efficient data manipulation tools | [Good First Issues](https://github.com/huggingface/datasets/pulls?q=+is%3Apr+author%3AVijayKalmath+)
+| [AIModelshare](https://www.gentoo.org) | Manage machine learning projects from start to finish | Maintainer

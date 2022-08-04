@@ -8,49 +8,46 @@ category: Deep Learning
 github: https://github.com/VijayKalmath/Spectral-Representations-for-Convolutional-Neural-Networks
 ---
 
+
 The project is based on the the 2015 Paper by Oren Rippel et.al. [Arxiv Link](https://arxiv.org/pdf/1506.03767.pdf)
+
+The proposals in the paper are aimed at improving the performance of Convolutional Neural Networks by exploiting the spectral domain of images (Fast Fourier Transforms are used to quickly convert images from spatial to spectral domain).
+
  
-The proposals are aimed at improving the performance of Convolutional Neural Networks by exploiting the spectral domain of images (Fast Fourier Transforms are used to quicky convert images from spatial to spectral domain). 
+Essentially the proposals can be summarized into two main hypothesis :
 
-Essentially the proposals can be summarized into two main hypothesis : 
+1. `Spectral Pooling` where the pooling operation happens in the spectral domain of the input images. 
+2. `Spectral Dropout` where frequencies are stochastically choosen to be dropped to mimic the regularization effect of standard dropout.
+3. `Spectral Parameterization` where the image filters are initialized in the spectral domain.
 
-'The first being, Spectral pooling where the pooling operation happens in the spectral domain of the input images. The second one being spectral
-parameterization where the image filters are initialized in the
-spectral domain; The corresponding parameters for this filter in
-the spectral domain are learnt instead.
-We were able to implement the proposal of the authors. However,
-we were able to partially achieve the results discussed by the
-authors due to shortage of compute time and GPU resources.
+We were able to successful implement all the Novel Ideas presented in the paper and replicate the results seen by the Authors.
 
+## Spectral Pooling 
 
+Spectral Pooling is a dimension reduction technique the authors introduced wherein the spectral representation of the image is truncated using a low pass filter and the image is later rebuilt with inverse transformations. 
 
-We implement custom tensorflow layers using tensorflow APIs which perform 
+This technique is supported by the fact that higher frequencies in the spectral representations of the images tend to encode noise and edges. Removing these frequencies leads to both dimension reduction while minimizing the loss of information. 
 
-    1. Spectral Pooling 
-    2. Frequency dropout 
-    3. Spectral Implementation on Convolutional Neural Network 
-   
+The implementation involves :
 
-
-We were able to successful implement all the Novel Ideas presented in the paper and replicate the results seen by the Authors. 
-
-
-
+1. DFT of the image and shifting of the zero-frequency component. 
+2. Implement a low pass filter and process the DFT image with the filter.
+3. DFT images after low pass need to adhere to standards which involves treating corner cases when the shapes are odds.
+4. Take Inverse DFT to get the spatial representation of the new image.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path=assets/img/spectral_representations/grayscale_pooling.png title="Grayscale spectral Pooling" class="img-fluid" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path=assets/img/spectral_representations/rgb_pooling.png title="Rgb spectral Pooling" class="img-fluid" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Spectral Pooling for grayscale image and RGB image
 </div>
+
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}

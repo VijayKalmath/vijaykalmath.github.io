@@ -39,7 +39,7 @@ We performed Adversarial Data Augmentation using different Algorithms such as Em
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/adversarial_training_model_compression/example.png" title="Adversarial Data Augmentation Example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/adversarial_training_model_compression/example.png" title="Adversarial Data Augmentation Example image" class="img-fluid" %}
     </div>
 </div>
 <div class="caption">

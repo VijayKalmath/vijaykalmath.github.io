@@ -37,10 +37,10 @@ The implementation involves :
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path=assets/img/spectral_representations/grayscale_pooling.png title="Grayscale spectral Pooling" class="img-fluid" %}
+        {% include figure.html path="assets/img/spectral_representations/grayscale_pooling.png" title="Grayscale spectral Pooling" class="img-fluid" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path=assets/img/spectral_representations/rgb_pooling.png title="Rgb spectral Pooling" class="img-fluid" %}
+        {% include figure.html path="assets/img/spectral_representations/rgb_pooling.png" title="Rgb spectral Pooling" class="img-fluid" %}
     </div>
 </div>
 <div class="caption">

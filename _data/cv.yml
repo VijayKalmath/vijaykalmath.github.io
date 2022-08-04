@@ -74,13 +74,18 @@
         - Designed Data Pipeline for stateful tracking of Cisco Lab's ACI systems using Python, MongoDB, and JavaScript.
         - Authored 5 technical briefs with a focus on ACI and its integration with Docker, Kubernetes, and OpenStack.
         - Supervised hiring and mentoring of 28 engineers in Networking and DevOps technologies, Python, JavaScript, and MongoDB. 
-        
+        - Drove troubleshooting for ACI Anywhere, Multicloud integration with Amazon Web Services, Azure, and ACI integrations with Openstack, Kubernetes.
+        - Organized and Trained Engineers on various technologies like Docker, Kubernetes, Linux, Data streaming(Kafka), and Elasticsearch platforms.
+
+
     - title: Technical Consulting Engineer-II
       institution: Cisco Systems
       year: Jul 2019 - Dec 2019
       description: 
+        - Led troubleshooting for Docker and Kubernetes Platforms for Cisco MSO (Multi-Site Orchestrator)
         - Troubleshot Cisco ACI (Application Centric Infrastructure) with a focus on RAFT and Linux based distributed computing systems.
         - Spearheaded over 32 automation projects to enhance ACI product usability and ease engineers' work with Python and JavaScript.
+        - Hosted Weeklong Knowledge Transfer sessions on ACI for Internal Cisco Teams for 10+ Engineers.
         - Trained and hosted 6+ seminars for new upcoming teams on Cisco ACI and ACI Automation.
 
 
@@ -88,8 +93,11 @@
       institution: Cisco Systems
       year: Jul 2018 - Jul 2019
       description: 
+        - Assisted customers in implementing new and complex technologies with Cisco ACI.
         - Inspected, Identified, and troubleshot Cisco Routing and Switching Issues in ACI and VMware Integration with ACI.
         - Worked on Integration of Docker and Kubernetes services with ACI on cloud services like AWS and Azure.
+        - Focused on in-depth troubleshooting of the APICs and switches with a focus on ASIC-level L2/L3 routing/switching/multicast forwarding through the fabric
+        - SME for ACI 3rd Party Integration such as VMware, Microsoft-SCVMM.
 
 - title: Certifications
   type: time_table

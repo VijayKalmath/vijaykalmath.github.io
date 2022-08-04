@@ -39,56 +39,50 @@ The implementation involves :
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/spectral_representations/grayscale_pooling.png" title="Grayscale spectral Pooling" class="img-fluid" %}
     </div>
+</div>
+
+<div class="caption">
+    Spectral Pooling for grayscale Images
+</div>
+
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/spectral_representations/rgb_pooling.png" title="Rgb spectral Pooling" class="img-fluid" %}
     </div>
 </div>
 <div class="caption">
-    Spectral Pooling for grayscale image and RGB image
+    Spectral Pooling for RGB Images
 </div>
 
+We can clearly see that the spectral pooling is much better at keeping the overall structure of the image intact through the extreme amounts of pooling.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+We can see that in the most extreme case of dimension  reduction(by a factor of 4096), the max pooling output has lost all resemblances to the original image but in the spectral
+pooling with just 8 frequencies , we can still see the silhouette of the man taking the photo.
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Spectral Representation 
+
+In traditional CNN all the learnable parameters (weights of the filter as well as the associated bias terms) are defined in the real (spatial) domain. 
+
+In this implementation however, the aim was to design a CNN with spectrally parameterized filters. 
+
+We did this by initializing our parameter weights as complex valued coefficients of the DFT of the filter weights rather than the filter weights themselves. 
+
+To do this we first created a custom “spectralConv2D” layer in Keras. 
+
+Within this layer we built two separate kernels for representing the real and imaginary parts of our complex-valued kernel.
+
+This was done since Keras doesn’t provide support for learning complex parameters directly. Next, we combine these two kernels into a single complex filter using tf.complex. 
+
+We then take the inverse DFT of this filter so as to get its spatial representation which is ultimately used in the convolution operation with the input tensor (which was already in the spatial domain).
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Results 
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+We built different CNN architectures and their spectral equivalent wherein the Convolutional Layers are replaced with spectral CNNs , max-pooling layers are replaced with spectral pooling and dropout layers with spectral dropout layers. 
+
+The trainings show that the spectral CNN Architectures were always faster in attaining the validation accuracy achieved by the  standard CNN Architecture. 
+
+The Spectral CNN Architectures showed training speed-up by almost 2.1 to 5 times. 
+
+Furthermore the Spectral CNNs were able to achieve higher validation accuracy with respect to the standard CNN architecture.

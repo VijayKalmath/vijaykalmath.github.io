@@ -33,10 +33,9 @@ In this project we look at how we can use adversarial training either before or 
 
 We explore two basic strategies for building robust models that are immune to adversarial attacks - Adversarial training and GAN-Bert training. 
 
-Adversarial training mainly involves the technique of data augmentation during the Fine0tuning step of the model while GAN Bert training involves self creation of perturbed examples that are included during the model training phase. 
+Adversarial training mainly involves the technique of data augmentation during the Fine-tuning step of the model while GAN Bert training involves self creation of perturbed examples that are included during the model training phase. 
 
-
-We performed Adversarial Data Augmentation using different Algorithms such as EmbeddingAugmenter , SynonymInsertionAugmenter , WordNetAugmenter
+We performed Adversarial Data Augmentation using different Algorithms such as EmbeddingAugmenter , SynonymInsertionAugmenter , WordNetAugmenter. An example of adversarial data augmentation for the SST-2 datasets.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -49,19 +48,28 @@ We performed Adversarial Data Augmentation using different Algorithms such as Em
 
 ## Results
 
+Model Performance : 
+
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/adversarial_training_model_compression/table2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+
+We can clearly see that Ganbert is able to hold itself much better under Attack that ganbert even with just 50% of the data having labels. 
+This is indicative of SSL training aiding in creating a more robust embedding space.
+
+
+Attack Performance:
+
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/adversarial_training_model_compression/table3.png"  title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+We can see that the Textfooler context-based attack out-performs visual based attacks. We can also see that the Pruthi attack which uses a Greedy Search requires a lot more queries to get the adversarial example that fools the model over the other attack algorithms. The other 3 algorithms use a Greedy-WIR search method wherein input gradients are calculated to find the most important word in a sentence.
+
 <div class="caption">
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
@@ -70,24 +78,11 @@ We performed Adversarial Data Augmentation using different Algorithms such as Em
         {% include figure.html path="assets/img/adversarial_training_model_compression/table4.png"  title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+we can see that the student model performs very bad with respect to it teacher (gan-bert) and the parent distilbert from where the weights are copied. 
+
+We can see that even with half of the layers in student model , we can see that the original accuracy is very close to the teacher’s accuracy which maps with the work in DistilBert , but the drop in robustness is extremely high. 
+
+
+This follows our initial hypothesis that distillation does not carry robustness of the teacher onto the student and adversarial finetuning after model compression is extremely important in preserving robustness.

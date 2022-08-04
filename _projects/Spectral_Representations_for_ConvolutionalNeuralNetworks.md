@@ -22,9 +22,11 @@ Essentially the proposals can be summarized into two main hypothesis :
 
 We were able to successful implement all the Novel Ideas presented in the paper and replicate the results seen by the Authors.
 
+---
+
 ## Spectral Pooling 
 
-Spectral Pooling is a dimension reduction technique the authors introduced wherein the spectral representation of the image is truncated using a low pass filter and the image is later rebuilt with inverse transformations. 
+Spectral Pooling is a `dimension reduction technique` the authors introduced wherein the spectral representation of the image is truncated using a low pass filter and the image is later rebuilt with inverse transformations. 
 
 This technique is supported by the fact that higher frequencies in the spectral representations of the images tend to encode noise and edges. Removing these frequencies leads to both dimension reduction while minimizing the loss of information. 
 
@@ -54,10 +56,13 @@ The implementation involves :
     Spectral Pooling for RGB Images
 </div>
 
+The first row is the images after max pooling with the dimension reduction ratio described below. 
+The second row is the image after spectral pooling with the same dimension reduction ratio applied to the spectral representation.
+The third row is a visualization of the frequencies that are kept after the low pass filter for the given dimension reduction ratio.
+
 We can clearly see that the spectral pooling is much better at keeping the overall structure of the image intact through the extreme amounts of pooling.
 
-We can see that in the most extreme case of dimension  reduction(by a factor of 4096), the max pooling output has lost all resemblances to the original image but in the spectral
-pooling with just 8 frequencies , we can still see the silhouette of the man taking the photo.
+We can see that in the most extreme case of dimension  reduction (by a factor of 4096), the max pooling output has lost all resemblances to the original image but in the spectral pooling with just 8 frequencies , we can still see the silhouette of the man taking the photo.
 
 
 ## Spectral Representation 
@@ -68,13 +73,15 @@ In this implementation however, the aim was to design a CNN with spectrally para
 
 We did this by initializing our parameter weights as complex valued coefficients of the DFT of the filter weights rather than the filter weights themselves. 
 
-To do this we first created a custom “spectralConv2D” layer in Keras. 
+To do this we first created a custom `spectralConv2D` layer in Keras. 
 
 Within this layer we built two separate kernels for representing the real and imaginary parts of our complex-valued kernel.
 
 This was done since Keras doesn’t provide support for learning complex parameters directly. Next, we combine these two kernels into a single complex filter using tf.complex. 
 
 We then take the inverse DFT of this filter so as to get its spatial representation which is ultimately used in the convolution operation with the input tensor (which was already in the spatial domain).
+
+---
 
 
 ## Results 
@@ -83,6 +90,6 @@ We built different CNN architectures and their spectral equivalent wherein the C
 
 The trainings show that the spectral CNN Architectures were always faster in attaining the validation accuracy achieved by the  standard CNN Architecture. 
 
-The Spectral CNN Architectures showed training speed-up by almost 2.1 to 5 times. 
+The Spectral CNN Architectures showed training speed-up by almost `2.1 to 5` times. 
 
-Furthermore the Spectral CNNs were able to achieve higher validation accuracy with respect to the standard CNN architecture.
+Furthermore the Spectral CNNs were able to achieve `higher validation accuracy` with respect to the standard CNN architecture.

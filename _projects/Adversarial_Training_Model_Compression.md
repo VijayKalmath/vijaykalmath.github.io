@@ -48,7 +48,9 @@ We performed Adversarial Data Augmentation using different Algorithms such as Em
 
 ## Results
 
-Model Performance : 
+--- 
+
+### Model Performance : 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -56,11 +58,13 @@ Model Performance :
     </div>
 </div>
 
-We can clearly see that Ganbert is able to hold itself much better under Attack that ganbert even with just 50% of the data having labels. 
-This is indicative of SSL training aiding in creating a more robust embedding space.
+We can clearly see that the Ganbert model is able to hold itself a lot better under Attack than the finetuneed-distilbert even with just 50% of the data having labels.
 
+This is indicative of the SSL training aiding in creating a more robust embedding space.
 
-Attack Performance:
+--- 
+
+### Attack Performance:
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -68,11 +72,14 @@ Attack Performance:
     </div>
 </div>
 
-We can see that the Textfooler context-based attack out-performs visual based attacks. We can also see that the Pruthi attack which uses a Greedy Search requires a lot more queries to get the adversarial example that fools the model over the other attack algorithms. The other 3 algorithms use a Greedy-WIR search method wherein input gradients are calculated to find the most important word in a sentence.
+We can see that the Textfooler context-based attack out-performs visual based attacks. We can also see that the Pruthi attack which uses a Greedy Search requires a lot more queries to get the adversarial example that fools the model over the other attack algorithms. 
 
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+The other 3 algorithms use a Greedy-WIR search method wherein input gradients are calculated to find the most important word in a sentence.
+
+--- 
+
+### Attack Performed on Distilled Model. 
+
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/adversarial_training_model_compression/table4.png"  title="example image" class="img-fluid rounded z-depth-1" %}
@@ -83,6 +90,5 @@ We can see that the Textfooler context-based attack out-performs visual based at
 we can see that the student model performs very bad with respect to it teacher (gan-bert) and the parent distilbert from where the weights are copied. 
 
 We can see that even with half of the layers in student model , we can see that the original accuracy is very close to the teacher’s accuracy which maps with the work in DistilBert , but the drop in robustness is extremely high. 
-
 
 This follows our initial hypothesis that distillation does not carry robustness of the teacher onto the student and adversarial finetuning after model compression is extremely important in preserving robustness.

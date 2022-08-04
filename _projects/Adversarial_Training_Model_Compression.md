@@ -54,7 +54,7 @@ We performed Adversarial Data Augmentation using different Algorithms such as Em
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/adversarial_training_model_compression/table2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/adversarial_training_model_compression/table2.png" title="example image" class="img-fluid" %}
     </div>
 </div>
 
@@ -68,7 +68,7 @@ This is indicative of the SSL training aiding in creating a more robust embeddin
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/adversarial_training_model_compression/table3.png"  title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/adversarial_training_model_compression/table3.png"  title="example image" class="img-fluid" %}
     </div>
 </div>
 
@@ -82,7 +82,7 @@ The other 3 algorithms use a Greedy-WIR search method wherein input gradients ar
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/adversarial_training_model_compression/table4.png"  title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/adversarial_training_model_compression/table4.png"  title="example image" class="img-fluid" %}
     </div>
 </div>
 

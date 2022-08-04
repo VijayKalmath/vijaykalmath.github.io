@@ -9,14 +9,33 @@ github: https://github.com/VijayKalmath/Spectral-Representations-for-Convolution
 ---
 
 The project is based on the the 2015 Paper by Oren Rippel et.al. [Arxiv Link](https://arxiv.org/pdf/1506.03767.pdf)
+ 
+The proposals are aimed at improving the performance of Convolutional Neural Networks by exploiting the spectral domain of images (Fast Fourier Transforms are used to quicky convert images from spatial to spectral domain). 
+
+Essentially the proposals can be summarized into two main hypothesis : 
+
+'The first being, Spectral pooling where the pooling operation happens in the spectral domain of the input images. The second one being spectral
+parameterization where the image filters are initialized in the
+spectral domain; The corresponding parameters for this filter in
+the spectral domain are learnt instead.
+We were able to implement the proposal of the authors. However,
+we were able to partially achieve the results discussed by the
+authors due to shortage of compute time and GPU resources.
+
+
 
 We implement custom tensorflow layers using tensorflow APIs which perform 
 
     1. Spectral Pooling 
     2. Frequency dropout 
     3. Spectral Implementation on Convolutional Neural Network 
-    
+   
+
+
 We were able to successful implement all the Novel Ideas presented in the paper and replicate the results seen by the Authors. 
+
+
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

@@ -14,7 +14,7 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the page
 ---
 
 I am a Master’s student in Data Science at [Columbia University](https://datascience.columbia.edu/education/programs/m-s-in-data-science/) graduating in December 2022. 

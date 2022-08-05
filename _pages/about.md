@@ -6,7 +6,7 @@ subtitle: <a href='https://www.columbia.edu/'> MS Data Science @ Columbia Univer
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic.jpg
   image_cicular: false # crops the image to make it circular
   address: >
     <p>vijay.kalmath@columbia.edu</p>

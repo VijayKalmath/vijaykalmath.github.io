@@ -8,6 +8,20 @@
     - name: LinkedIN
       value: www.linkedin.com/in/vijay-kalmath
 
+- title: Skills 
+  type : map
+  contents:
+    - name: Languages
+      value: Python, R, JavaScript, C++ 
+    - name: Databases 
+      value: SQL, Postgres, MongoDB, ElasticSearch  
+    - name: Machine Learning / Deep Learning
+      value: TensorFlow, Pytorch, Huggingface, WandB, Scikit-learn,
+    - name: Cloud Services 
+      value: AWS Sagemaker, AWS Lambda, AWS EKS, Azure Cloud, Google BigQuery,
+    - name: DevOps Technologies
+      value: Linux, ELK Stack, Docker, Kubernetes,CI/CD Pipelines
+      
 - title: Education
   type: time_table
   contents:
@@ -18,7 +32,7 @@
       description:
         - title: CourseWork 
           contents:
-            - Deep Learning
+            - Neural Networks and Deep Learning
             - Advanced Deep Learning
             - Machine Learning 
             - Statistical Inference 
@@ -115,16 +129,3 @@
 
 
 
-- title: Skills 
-  type : map
-  contents:
-    - name: Languages
-      value: Python, R, JavaScript, C++ 
-    - name: Databases 
-      value: SQL, Postgres, MongoDB, ElasticSearch  
-    - name: Machine Learning / Deep Learning
-      value: TensorFlow, Pytorch, Huggingface, WandB, Scikit-learn,
-    - name: Cloud Services 
-      value: AWS Sagemaker, AWS Lambda, AWS EKS, Azure Cloud, Google BigQuery,
-    - name: DevOps Technologies
-      value: Linux, ELK Stack, Docker, Kubernetes,CI/CD Pipelines

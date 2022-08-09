@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.columbia.edu/'> MS Data Science @ Columbia University</a> , <a href='https://www.cisco.com/'>Ex - Cisco</a>
+subtitle: Pronouns - he/him/his <a href='https://www.columbia.edu/'> MS Data Science @ Columbia University</a> , <a href='https://www.cisco.com/'>Ex - Cisco</a>
 
 profile:
   align: right

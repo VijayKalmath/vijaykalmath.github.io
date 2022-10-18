@@ -61,9 +61,10 @@
       institution: AIModelshare, Institute for Social and Economic Research and Policy, Columbia University
       year: Ongoing
       description:
-        - Deployed aimodelshare python library on pip and conda forge channels with 2000+ monthly downloads. 
-        - Tested and Developed model replication framework on python with AWS Lambda and S3 Buckets to store onnx files.
-        - Developed methods to store Keras model weights to Onnx files and instantiate trained models from onnx files.
+        - Created a fully integrated python library and web application to ease hosting ML models, creating competitions, and performing model analytics.
+        - Deployed aimodelshare python library on pip and conda-forge channels with 2000+ monthly downloads.
+        - Implemented model determinism and model replication framework using TensorFlow python with AWS Lambda and S3. 
+        - Designed automated cloud storage, API hosting and Model analytics for Keras and PyTorch Models with Onnx framework.  
 
 
     - title: Graduate Deep Learning Research Assistant

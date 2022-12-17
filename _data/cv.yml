@@ -20,6 +20,7 @@
           contents:
             - Neural Networks and Deep Learning
             - Advanced Deep Learning
+            - Representation Learing 
             - Machine Learning 
             - Statistical Inference 
             - Cloud Computing (Audit)
@@ -32,7 +33,7 @@
         - title: CourseWork 
           contents: 
             - Data Structures and Algorithms 
-            -  C 
+            - C 
             - Discrete Maths
             - Python
             - Java
@@ -57,7 +58,7 @@
 - title: Academic Work Experience
   type: time_table
   contents:
-    - title: Graduate Machine Learning Research Assistant
+    - title: Graduate Machine Learning Researcher
       institution: AIModelshare, Institute for Social and Economic Research and Policy, Columbia University
       year: Ongoing
       description:
@@ -67,7 +68,7 @@
         - Designed automated cloud storage, API hosting and Model analytics for Keras and PyTorch Models with Onnx framework.  
 
 
-    - title: Graduate Deep Learning Research Assistant
+    - title: Graduate Deep Learning Researcher
       institution: Columbia WiMNet Lab, Columbia University
       year: May 2022 - Jul 2022
       description:

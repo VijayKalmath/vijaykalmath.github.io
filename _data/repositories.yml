@@ -3,8 +3,9 @@ github_users:
 
 github_repos:
   - QData/TextAttack
-  - VijayKalmath/Spectral-Representations-for-Convolutional-Neural-Networks
+  - VijayKalmath/Radiology-Report-Genration-using-MultiModal-PrototypeNetwork
+  - VijayKalmath/MultiModal-KnowledgeDistillation
   - VijayKalmath/AdversarialTraining_in_Distilation_Of_BERT
-  - VijayKalmath/K-Branch-CNNs
+  - VijayKalmath/Spectral-Representations-for-Convolutional-Neural-Networkss
   - VijayKalmath/MultiChannelResNet-RemoteSensingData-Classification
-  - VijayKalmath/XGBoost_Models_for_StellarNetwork_SurgePrice_Prediction
+  

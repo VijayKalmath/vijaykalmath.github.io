@@ -17,15 +17,24 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-As a Master's student in Data Science at Columbia University, set to graduate in December 2022, I bring a wealth of knowledge and experience to the table. I am currently working as a Machine Learning Researcher under the supervision of Professor Michael Parrott on the [AI Modelshare](https://www.modelshare.org/)project.
+I am an M.S. student in Data Science at Columbia University.My work is focused on deep learning research and large language models. 
 
-Previously, I held the position of Deep Learning Researcher with Dr. Igor Kadota at Columbia University, where I gained expertise in Image Sequence Classification utilizing ConvLSTM models for Wind Speed Classification.
+As an NLP - Machine Learning Engineer at Lexalytics, a leading multi-lingual AI company, I am passionate about pushing the boundaries of deep learning and NLP. 
 
-Throughout my studies and work at Columbia, I have developed a strong focus on Deep Learning, with a particular emphasis on projects involving standard Convolutional Neural Networks, custom TensorFlow layers, Time Distributed ConvLSTMs, and Language Models. Currently, my research interests lie in the areas of representation models and language models, with a specific focus on model compression techniques and adversarial attacks.
+During my time at Columbia, I achieved significant milestones that highlight my expertise and passion for deep learning and NLP, including:
 
-In Spring 2022, I also served as a Course Assistant for the Deep Learning and Neural Networks and Machine Learning Security courses in the Columbia AI Executive Program, further solidifying my knowledge in these areas.
+1. Serving as a Machine Learning Researcher under the supervision of Professor Michael Parrott on the prestigious AI Modelshare project, where I contributed to cutting-edge research in machine learning.
 
+2. Working as a Deep Learning Researcher with Dr. Igor Kadota at Columbia University, where I developed convLSTM models to predict micro-climate patterns based on radar transmission data, showcasing my skills in applying deep learning techniques to real-world problems.
+
+3. Being appointed as a Course Assistant for Deep Learning and Neural Networks as well as Machine Learning Security courses in the esteemed Columbia AI Executive Program, demonstrating my aptitude for teaching and sharing my expertise in these specialized areas of study.
+
+These experiences reflect my dedication to advancing the field of deep learning and NLP through research, practical applications, and knowledge-sharing, and highlight my commitment to excellence in my academic and professional pursuits.
+
+My current research interests revolve around representation models and large language models, with a particular emphasis on model compression techniques and adversarial attacks.
 ---
+
+{% comment %} 
 
 Prior to pursuing my Masters, I amassed three years of professional experience as a Network Engineer in the Data Center - Software Defined Networking domain at Cisco in Bangalore, India. 
 During my tenure there, I focused on Linux-based Distributed Computing platforms, DevOps technologies such as Docker and Kubernetes, and Cloud Computing utilizing AWS and Azure alongside data center networking.
@@ -33,3 +42,5 @@ During my tenure there, I focused on Linux-based Distributed Computing platforms
 At Cisco, I had the opportunity to collaborate with a diverse range of customers globally and was tasked with mentoring and ramping up multiple engineers within the team. I also demonstrated leadership and technical acumen by successfully leading and developing over 30 automation projects, utilizing a variety of programming languages and technologies such as Python, JavaScript, SQL, MongoDB, and Elasticsearch. These projects aimed to streamline troubleshooting for engineers and automate log analysis across various technologies.
 
 In addition to my professional pursuits, I have a passion for Formula 1 Racing and enjoy participating in quizzes as a hobby.
+
+{% endcomment %}

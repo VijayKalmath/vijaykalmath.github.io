@@ -5,9 +5,9 @@ permalink: /
 subtitle: NLP - Machine Learning Engineer at Lexalytics
 
 profile:
-  align: left
+  align: right
   image: prof_pic.jpg
-  image_cicular: false # crops the image to make it circular
+  image_cicular: true # crops the image to make it circular
   address: >
     <p>vijay.kalmath@columbia.edu</p>
     <p>New York City</p>

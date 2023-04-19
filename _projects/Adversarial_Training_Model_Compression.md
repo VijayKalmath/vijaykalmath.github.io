@@ -3,7 +3,7 @@ layout: page
 title: Adversarial Training in Distillation of BERT
 description: Language Model Compression and their Robustness 
 img: assets/img/adversarial_training_model_compression/distilBert_modelcompression.png
-importance: 1
+importance: 2
 category: Deep Learning
 github: https://github.com/VijayKalmath/AdversarialTraining_in_Distilation_Of_BERT
 ---

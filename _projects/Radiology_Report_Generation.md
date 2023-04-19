@@ -3,8 +3,9 @@ layout: page
 title: Radiology Report Generation for Chest X-RAY Images
 description: Analyze and improve MultiModal PrototypeNetwork Model for Radiology Report Generation.
 img: assets/img/rrg/rrg-model-output.jpg
-importance: 2
+importance: 1
 category: Deep Learning
+github: https://github.com/VijayKalmath/Radiology-Report-Genration-using-MultiModal-PrototypeNetwork
 ---
 
 The project is based on the the 2022 Paper by Jun Wang et.al. [Arxiv Link](https://arxiv.org/pdf/2207.04818.pdf) 

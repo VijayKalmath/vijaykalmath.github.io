@@ -3,7 +3,7 @@ layout: page
 title: K-Branch CNN 
 description: Novel Convolutional Architecture for Remote Sensing Data
 img: assets/img/climate_change_competition/k-branch_cnn.png
-importance: 3
+importance: 5
 category: Deep Learning
 github: https://github.com/VijayKalmath/K-Branch-CNNs
 ---

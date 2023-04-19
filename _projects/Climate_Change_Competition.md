@@ -3,7 +3,7 @@ layout: page
 title: BigEarthNet Classification using Transfer Learning.
 description: Climate Change Machine Learning Competition - Won Gold Medal.
 img: assets/img/climate_change_competition/bigearthnet.png
-importance: 3
+importance: 6
 category: Deep Learning
 github: https://github.com/VijayKalmath/XCeption-TransferLearning
 ---

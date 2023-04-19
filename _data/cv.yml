@@ -18,6 +18,7 @@
       description:
         - title: CourseWork 
           contents:
+            - Representation Learning 
             - Neural Networks and Deep Learning
             - Advanced Deep Learning
             - Representation Learing 
@@ -48,7 +49,7 @@
     - name: Databases 
       value: SQL, Postgres, MongoDB, ElasticSearch  
     - name: Machine Learning / Deep Learning
-      value: TensorFlow, Pytorch, Huggingface, WandB, Scikit-learn,
+      value: TensorFlow, Pytorch, Huggingface, WandB, Scikit-learn,ONNX.
     - name: Cloud Services 
       value: AWS Sagemaker, AWS Lambda, AWS EKS, Azure Cloud, Google BigQuery,
     - name: DevOps Technologies
@@ -58,9 +59,16 @@
 - title: Academic Work Experience
   type: time_table
   contents:
+    - title: NLP - Machine Learning Engineer 
+      institution: Lexalytics
+      year: Feb 2023 - Ongoing
+      description: 
+        - Optimized KeyPhrase Extraction for multi-lingual customer review data using Huggingface BERT model, improved F1 score to 0.85.
+        - Streamlined LLM training and fine-tuning pipeline with microservices and Django architecture, enhancing resource utilization and user accessibility.
+        - Improved LLM inference and validation pipeline by using ONNX runtime accelerator and ONNX quantization.
     - title: Graduate Machine Learning Researcher
       institution: AIModelshare, Institute for Social and Economic Research and Policy, Columbia University
-      year: Ongoing
+      year: Jul 2022 - Dec 2022
       description:
         - Created a fully integrated python library and web application to ease hosting ML models, creating competitions, and performing model analytics.
         - Deployed aimodelshare python library on pip and conda-forge channels with 2000+ monthly downloads.
@@ -86,9 +94,6 @@
       institution : Columbia University 
       year : Feb 2022 - May 2022
 
-- title: Work Experience
-  type: time_table
-  contents:
     - title: Network Engineer-II-Escalation Engineer 
       institution: Cisco Systems
       year: Jan 2020 - Jul 2021

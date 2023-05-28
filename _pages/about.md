@@ -6,7 +6,7 @@ subtitle: NLP - Machine Learning Engineer at Lexalytics
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: vijay-profile.jpeg
   image_cicular: false # crops the image to make it circular
   address: >
     <p>vijay.kalmath@columbia.edu</p>

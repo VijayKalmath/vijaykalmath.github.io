@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Adversarial Training in Distillation of BERT
-description: Language Model Compression and their Robustness 
+description: BERT Language Model Compression and their Robustness 
 img: assets/img/adversarial_training_model_compression/distilBert_modelcompression.png
 importance: 2
 category: Deep Learning

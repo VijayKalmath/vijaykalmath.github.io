@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Radiology Report Generation for Chest X-RAY Images
-description: Analyze and improve MultiModal PrototypeNetwork Model for Radiology Report Generation.
+description: Analyze and Improve Resnet-Bert based MultiModal-PrototypeNetwork Model for Radiology Report Generation.
 img: assets/img/rrg/rrg-model-output.jpg
 importance: 1
 category: Deep Learning
@@ -118,3 +118,6 @@ A closer examination of the generated reports reveals that the <ins> 18 unique r
 
 We found through experimentation with differing inputs that for two different radiology images with different issues, if we use a single pseudo-label then the reports generated are exactly the same indicating that the transformers are over-dependent on the pseudo=labels. 
 
+Further works to understand this dependence on pseudo-label generation needs to be analyzed along with prototype matrix analysis. 
+
+Team Members : Vijay S Kalmath, Amrutha Varshini Sundar, Andrew Schaefer, Ayush Sinha, Prabha Kiranmai Vasireddy, Navjot Singh.

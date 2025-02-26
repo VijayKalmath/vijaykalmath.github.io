@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: NLP - Machine Learning Engineer at Lexalytics
+subtitle: Machine Learning Research Engineer at Scale AI
 
 profile:
   align: right
@@ -17,8 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a NLP - Machine Learning Engineer at [Lexalytics](https://www.lexalytics.com/), a leading multi-lingual AI company, My work is focused on deep learning research and large language models. 
-
+I am a Machine Learning Research Engineer at [Scale AI](https://scale.com/) - My work is focused on deep learning research and large language models and building Enterprise AI Solutions. Prior to this, I worked as a AI Software Engineer at Lexalytics - An Inmoment Company. 
 
 I completed my Master of Science in Data Science at Columbia University in December 2022 and  I am passionate about pushing the boundaries of deep learning and NLP. 
 
